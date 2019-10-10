@@ -6,8 +6,26 @@ h1 {
 	font-family: 'Grenze', serif;
   color: white;
 }
+h2 {
+  color: white;
+}
+h3 {
+  color: red;
+}
 p {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 100%;
+  font-weight: bold;
 }
-
+ul.a {
+  list-style-type: square;
+  background: rgb(178,34,34);
+  padding: 1em;
+  margin-right: 100em;
+}
+li.a {
+  background: #ffe5e5;
+}
+#work {
+  color: black;
+}
