@@ -34,6 +34,7 @@ nav#nav_bar ul {
   padding: 0;
   overflow: hidden;
   display: inline-block;
+  border-radius: 10em;
 }
 nav#nav_bar ul li {
   float: left;
