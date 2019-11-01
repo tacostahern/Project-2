@@ -1,4 +1,7 @@
 /*Stuff for all 5 pages*/
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 #main {
   position: relative;
@@ -7,9 +10,6 @@
 }
 body {
   background: radial-gradient(#00C9FF 0%, #92FE9D 100%);
-  margin: 1em;
-  width: 100%;
-  height: 100%;
 }
 h1 {
 	font-family: 'Grenze', serif;
@@ -27,7 +27,7 @@ h3 {
   font-size: 1.5em
 }
 p {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: "Bookman Old Style";
   font-size: 100%;
   font-weight: bold;
 }
@@ -114,10 +114,10 @@ p.laneTech {
 #body-fluid {
   width: 100%;
   height: 100%;
-  background-image: url(http://chicago.cubs.mlb.com/chc/wrigleyfield100/images/wallpaper4.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../media/cubs_b.jpg);
   background-position: center;
   background-size: cover;
+  
 }
 img.cubsLogo {
   border-radius: 50%;
@@ -138,12 +138,14 @@ h2.lineup {
 /* stuff for azul_page.html */
 #tonyBed {
   float: left;
+  padding: 1em;
 }
 img.bed {
   border-radius: 10em;
 }
 #parentsBed {
   float: right;
+  padding: 1em;
 }
 video.chair {
   height: 50em;
@@ -154,4 +156,5 @@ p.dog {
   font-family: 'Indie Flower', cursive;
   font-size: 2em;
   color: blue;
+  padding: 1em;
 }
